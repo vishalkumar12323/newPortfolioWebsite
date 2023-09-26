@@ -31,6 +31,11 @@ body {
     overflow-x: hidden;
 }
 
+*::selection {
+    color: var(--white-color);
+    background-color: var(--black-color);
+}
+
 h1,
 h2 {
     font-size: 2rem;
@@ -281,6 +286,22 @@ img {
 
 
 /* Our Creative Section Css Start =================> */
+/* .images-section {
+    position: relative;
+} */
+
+.images-section .cursor_anim {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 3rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgb(226, 59, 59);
+    z-index: 999;
+}
+
 .heading-section .common-heading {
     padding-top: 2rem;
 }
