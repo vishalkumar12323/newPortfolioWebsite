@@ -5,7 +5,6 @@
         padding: 0 8rem;
     }
 
-
     .mobile-bar-icon {
         display: block;
         margin-right: 20px;
@@ -47,6 +46,7 @@
         visibility: visible;
         pointer-events: auto;
     }
+
 
     .active .mobile-bar-icon .mobile-open-icon[name="open-icon"] {
         display: none;
