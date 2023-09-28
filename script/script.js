@@ -46,19 +46,3 @@ const clickToScrollTop = () => {
   });
 };
 clickToScrollTop();
-
-const onMouseAnimation = () => {
-  const images_section = document.querySelector("#images-section");
-  images_section.addEventListener("mousemove", (dets) => {
-    gsap.to("#cursor_anim", {
-      left: dets.x,
-      top: dets.y,
-    });
-  });
-};
-onMouseAnimation();
-const offMouseAnimation = () => {
-  const images_section = document.querySelector("#images-section");
-  images_section.addEventListener("mouseleave", () => {});
-};
-offMouseAnimation();
